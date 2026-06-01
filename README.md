@@ -1,62 +1,40 @@
-# Task 1 - Data Cleaning & Preprocessing
+# Task 2 - Exploratory Data Analysis (EDA)
 
 ## Objective
 
-The objective of this task is to learn how to clean and preprocess raw data for Machine Learning.
+To understand the dataset using descriptive statistics and visualizations.
 
-## Tools & Libraries Used
+## Tools Used
 
 * Python
-* Jupyter Notebook
 * Pandas
-* NumPy
 * Matplotlib
 * Seaborn
-* Scikit-learn
 
-## Dataset Used
+## Dataset
 
 Titanic Dataset
 
-## Steps Performed
+## Tasks Performed
 
-### 1. Data Loading
+* Generated summary statistics
+* Created histograms
+* Created boxplots
+* Generated correlation matrix
+* Generated pairplot
+* Identified patterns and trends
+* Made feature-level inferences
 
-Loaded the Titanic dataset using Pandas.
+## Key Findings
 
-### 2. Data Exploration
-
-* Checked dataset information
-* Checked data types
-* Identified missing values
-
-### 3. Handling Missing Values
-
-* Filled missing Age values using median
-* Filled missing Embarked values using mode
-* Dropped Cabin column due to too many missing values
-
-### 4. Encoding Categorical Features
-
-* Converted Sex column into numerical format
-* Applied one-hot encoding on Embarked column
-
-### 5. Feature Scaling
-
-Standardized numerical columns using StandardScaler.
-
-### 6. Outlier Detection & Removal
-
-* Visualized outliers using boxplots
-* Removed outliers using IQR method
-
-## Output
-
-Generated a cleaned dataset ready for Machine Learning models.
+* Most passengers were adults.
+* Fare distribution contains outliers.
+* Passenger class influences fare.
+* Some features show correlation with survival.
 
 ## Files Included
 
-* Task 1.ipynb
+* Task2_EDA.ipynb
 * Titanic-Dataset.csv
 * README.md
-* Screenshots folder
+* Screenshots
